@@ -1,2 +1,2 @@
-# uic
-Build frontend ui component, using HTML, CSS, JavaScript.
+# ewl-front
+Frontend appearance and layout of ewl

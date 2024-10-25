@@ -1,0 +1,94 @@
+@import url(color-scheme.css);
+
+:root {
+    
+    /* 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap" rel="stylesheet">
+    */
+    --language-edu-au-vic-wa-nt: "Edu AU VIC WA NT Guides", cursive;
+
+    /* 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    */
+    --ibm-plex-sans: "IBM Plex Sans", sans-serif;
+
+    /* 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+     */
+    --ubuntu-sans: "Ubuntu Sans", sans-serif;
+
+    /* 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+     */
+    --font-baloo-paaji-2: "Baloo Paaji 2", sans-serif;
+
+}
+
+
+html,
+body {
+    background-color: var(--gray-500);
+}
+
+.ewl-navbar {
+    background-color: var(--gray-800);
+    box-shadow: 0px 0px 5px 3px var(--yellow-500);
+}
+
+.ewl-navbar-brand-link {
+    font-family: var(--language-edu-au-vic-wa-nt);
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    /* font-size: x-large; */
+    color: var(--yellow-500);
+}
+.ewl-navbar-brand-link:hover {
+    color: var(--yellow-500);
+}
+.ewl-navbar-link {
+    color: var(--yellow-500);
+    font-weight: bold;
+    width: 80px;
+    text-align: center;
+    font-size: 15px;
+    font-family: var(--font-baloo-paaji-2);
+}
+.ewl-navbar-link:hover {
+    background-color: var(--yellow-500);
+    color: var(--gray-800)   
+}
+
+
+
+
+.ewl-home-tab {
+    background-color: var(--yellow-500);
+    /* box-shadow: 0px 0px 2px 3px  var(--gray-900); */
+}
+.ewl-home-tab-link {
+    color: var(--gray-900);
+    font-weight: bold;
+}
+
+.ewl-home-tab-item:hover{
+    background-color: var(--gray-900);
+}
+.ewl-home-tab-link:hover {
+    color: var(--yellow-500)
+}
+
+
+.ewl-home-tab-item,
+.ewl-home-tab-link {
+    transition: all .2s linear;
+}

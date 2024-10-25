@@ -1,0 +1,63 @@
+/* @import url(ewl-font.css); */
+
+.ewl-nav {
+    /* height: 100px; */
+    background-color: var(--gray-800);
+    box-shadow: 0px 0px 3px 3px var(--gray-600);
+    padding: 10px 0px;
+    position: sticky;
+    top: 0;
+}
+
+
+.ewl-nav-dropdown-list {
+    /* height: 100px; */
+    background-color: var(--gray-800);
+}
+
+
+.ewl-nav-link,
+.ewl-nav-dropdown-item {
+    color: var(--yellow-500);
+    font-size: 18px;
+    font-family: var(--ibm-plex-sans);
+    font-weight: 500;
+}
+
+.ewl-nav-link:hover,
+.ewl-nav-link:focus {
+    color: var(--gray-800);
+    background-color: var(--yellow-500);
+}
+
+.ewl-nav-link {
+    width: min-content;
+    text-align: center;
+    border-radius: 12px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* ewl-nav-dropdown:hover,
+ewl-nav-dropdown:focus, */
+/* .ewl-nav-dropdown-toggle:focus {
+    color: var(--yellow-500);
+    
+} */
+
+/* override bs class */
+/* .nav-link.active.show {
+    color: var(--yellow-500);
+} */
+
+.ewl-nav-brand {
+    color: var(--yellow-500);
+    font-weight: 900;
+    font-size: 22px;
+    font-family: var(--font-playwrite-db-s-cursive);
+}
+.ewl-nav-brand:hover {
+    color: var(--yellow-500);
+}

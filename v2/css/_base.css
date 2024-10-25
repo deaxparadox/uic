@@ -1,0 +1,71 @@
+/* @import url(/static/css/colorscheme.css); */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--gray-100);
+}
+
+
+
+
+/* 
+    EWL CONTENT CONTAINER
+*/
+.ewl-content-container {
+    box-shadow: 0px 0px 5px 1px var(--yellow-200);
+    /* background-color: var(--yellow-100); */
+    background: linear-gradient(225deg, var(--yellow-50), var(--blue-50));
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 40px 40px;
+}
+
+.ewl-content-container > h1:first-child, 
+.ewl-content-container > h2:first-child, 
+.ewl-content-container > h3:first-child, 
+.ewl-content-container > h4:first-child, 
+.ewl-content-container > h5:first-child, 
+.ewl-content-container > h5:first-child {
+    padding: 10px 5px;
+    border-bottom: 1px solid var(--gray-300);
+}
+
+.ewl-content-container >  p {
+    padding: 10px 5px;
+    font-size: 18px;
+    color: var(--gray-700);
+    line-height: 1.6;
+}
+
+.ewl-content-code-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* NOTE CONTAINER STYLES */
+.ewl-content-note-container {
+
+    box-shadow: 0px 0px 5px 1px var(--red-400);
+    background-color: var(--red-500);
+    color: var(--gray-100);
+
+    /* box-shadow: 0px 0px 5px 1px var(--yellow-400);
+    background-color: var(--yellow-500); */
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 40px 40px;
+    
+}
+.ewl-content-note-container > h1, h2, h3, h4, h5, h5 {
+    padding: 10px 5px;
+}
+
+.ewl-content-note-container >  p {
+    padding: 10px 5px;
+    font-size: 18px;
+    /* color: var(--gray-800); */
+    line-height: 1.6;
+}
