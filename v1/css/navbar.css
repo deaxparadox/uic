@@ -31,13 +31,13 @@
 }
 
 .ewl-nav-link {
-    width: min-content;
+    width: max-content;
     text-align: center;
     border-radius: 12px;
-    margin-left: 3px;
-    margin-right: 3px;
-    padding-left: 5px;
-    padding-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* ewl-nav-dropdown:hover,
@@ -60,4 +60,32 @@ ewl-nav-dropdown:focus, */
 }
 .ewl-nav-brand:hover {
     color: var(--yellow-500);
+}
+
+
+/* Style for navbar icon */
+.ewl-nav-brand-icon {
+    width: 64px;
+    height: 64px;
+    /* background-color: var(--yellow-500); */
+}
+
+/* Style for navbar container inside `nav` */
+.ewl-nav-container {
+    margin: 0px 5rem;
+}
+
+
+/* css for navbar collapse toggle */
+.ewl-nav-toggler {
+    background-color: var(--yellow-500);
+}
+
+
+@media screen and (max-width: 400px) {
+    
+    .ewl-nav-container {
+        margin: 0px 0rem;
+    }
+
 }

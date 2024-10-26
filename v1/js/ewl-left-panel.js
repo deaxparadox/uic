@@ -1,5 +1,23 @@
+
 const leftPanelFunction = () => {
-    let state = true
+
+    // state control of panel
+    let state = true;
+
+    /* 
+    - function: checkf the width of screen.
+    - If width if less or equal to 1024, minimize the panel. 
+    */
+    (function() {
+        const width = window.screen.width;
+        console.log(width)
+        if (width <= 1024) {
+            console.log(document.querySelector(".ewl-left-panel-left").style.width);
+            document.querySelector(".ewl-left-panel-left").style.width = "0px";
+            state = false;
+        }
+    })();
+
 
     const leftButton = document.querySelector(".ewl-left-panel-button");
     const leftPanel = document.querySelector(".ewl-left-panel-left");

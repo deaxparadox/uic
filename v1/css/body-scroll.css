@@ -1,0 +1,18 @@
+
+
+body::-webkit-scrollbar {
+    width: 10px;
+    /* Mostly for vertical scrollbars */
+    height: 10px;
+    /* Mostly for horizontal scrollbars */
+}
+
+body::-webkit-scrollbar-thumb {
+    /* Foreground */
+    background: var(--yellow-600);
+}
+
+body::-webkit-scrollbar-track {
+    /* Background */
+    background: var(--gray-900);
+}

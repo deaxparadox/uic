@@ -21,7 +21,12 @@ body {
     padding: 40px 40px;
 }
 
-.ewl-content-container > h1, h2, h3, h4, h5, h5 {
+.ewl-content-container > h1:first-of-type, 
+.ewl-content-container > h2:first-of-type, 
+.ewl-content-container > h3:first-of-type, 
+.ewl-content-container > h4:first-of-type, 
+.ewl-content-container > h5:first-of-type, 
+.ewl-content-container > h6:first-of-type {
     padding: 10px 5px;
 }
 

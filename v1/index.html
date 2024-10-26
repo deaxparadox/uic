@@ -19,8 +19,9 @@
   <link rel="stylesheet" href="css/_base.css">
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/ewl-font.css">
-  <link rel="stylesheet" href="css/left-panel.css">
-
+  <link rel="stylesheet" href="css/ewl-left-panel.css">
+  <link rel="stylesheet" href="css/ewl-right-panel.css">
+  <link rel="stylesheet" href="css/body-scroll.css">
 
   <!--  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,13 +53,38 @@
     </div>
   </div>
 
+  <!-- 
+  RIGHT
+  PANEL
+  -->
+    <!-- 
+  RIGHT MENU PANEL
+  -->
+  <div class="ewl-right-panel">
+
+    <div class="ewl-right-panel-left">
+      <button class="ewl-right-panel-button">
+        <span>⏩</span>
+      </button>
+    </div>
+    <div class="ewl-right-panel-right">
+      <div class="ewl-right">
+        <h5 class="ewl-right-title">Table of Content</h5>
+      </div>
+    </div>
+  </div>
+
+
 
   <!--  -->
   <!-- Navbar -->
   <!--  -->
-  <nav class="navbar navbar-expand-lg ewl-nav p-3 mb-3">
+  <nav class="navbar navbar-expand-lg ewl-nav mb-3">
     <div class="container-fluid ewl-nav-container">
-      <a class="navbar-brand ewl-nav-brand " href="/v1/index.html">everywherelinux</a>
+      <a class="navbar-brand ewl-nav-brand " href="/v1/index.html">
+        everywhere<img class="ewl-nav-brand-icon" src="/assets/images/linux-svgrepo-com-right-3.svg" alt="" srcset="">
+        
+      </a>
       <button class="navbar-toggler ewl-nav-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon ewl-nav-toggler-icon"></span>
       </button>
@@ -81,13 +107,10 @@
               <li><a class="dropdown-item ewl-nav-dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
-          <li class="nav-item ewl-nav-item">
-            <a class="nav-link disabled ewl-nav-link" aria-disabled="true">Disabled</a>
-          </li>
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <input class="form-control me-2 ewl-nav-search-input" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning  ewl-nav-search-button" onclick="search(this)" type="submit">Search</button>
         </form>
       </div>
     </div>
@@ -217,7 +240,9 @@
 
 
   <script src="../static/js/_base.js"></script>
-  <script src="js/left-panel.js"></script>
+  <script src="js/ewl-left-panel.js"></script>
+  <script src="js/ewl-right-panel .js"></script>
+  <script src="js/ewl-navbar.js"></script>
   <script src="/static/prism/prism.js"></script>
 </body>
 
