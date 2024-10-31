@@ -27,7 +27,7 @@ const rightPanelFunction = () => {
     leftButton.addEventListener('click', () => {
 
         state = !state;
-        console.log("Left button clicked", state);
+        console.log("Right button clicked", state);
 
         if (state){
             leftPanel.style.width = '300px';

@@ -35,7 +35,7 @@ body {
 .ewl-content-container >  p {
     padding: 10px 5px;
     font-size: 18px;
-    color: var(--gray-700);
+    color: var(--gray-800);
     line-height: 1.6;
 }
 
